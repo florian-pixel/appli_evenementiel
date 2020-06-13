@@ -1,12 +1,94 @@
 #header{
-    background-color: gray;
+    background-color: slategray;
+    position: fixed;
+    z-index: 10;
+    width: 100%;
+    padding: 1em;
 }
-#logo{
-    background-color: green;
-}
-#main-menu{
-    background-color: pink;
-}
+
 #nav-item{
     margin-right: 1em;
 }
+
+#logo img{
+    width: 80px;
+}
+
+#slider, .sliderwrapper{
+    position: relative;
+    height: 100%;
+}
+
+.sliderwrapper{
+    background: #eee;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color:#000;
+    margin: 0;
+    padding: 0;
+}
+
+.swiper-container {
+    width: 100%;
+    height: 100%;
+  }
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+  }
+
+  .timer{
+      font-size: 20px;
+  }
+  #enterprise-numbers{
+      background-color: gray;
+      color: black;
+      padding-top: 20px;
+      padding-bottom: 40px;
+  }
+  #enterprise-numbers span{
+      color: white;
+  }
+  .nav-link{
+      color: white;
+  }
+ 
+  #products-services{
+      padding-top: 100px;
+  }
+  #title-box-product{
+      padding-bottom: 50px;
+  }
+  #btn-command{
+      border-radius: 10px;
+      margin-top: 25px;
+      margin-left: 90px;
+      color: white;
+      background-color: dimgray;
+  }
+  #testimonials{
+     padding-top: 30px;
+  }
+  .stat-item{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+  .content-stats{
+      text-align: center;
+  }
